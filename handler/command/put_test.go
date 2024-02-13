@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/KyleBanks/s3fs/handler/command/context"
+	"github.com/brozzis/s3fs/handler/command/context"
 )
 
 func TestPutCommand_Execute(t *testing.T) {

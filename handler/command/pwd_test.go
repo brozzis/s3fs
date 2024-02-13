@@ -3,7 +3,7 @@ package command
 import (
 	"testing"
 
-	"github.com/KyleBanks/s3fs/handler/command/context"
+	"github.com/brozzis/s3fs/handler/command/context"
 )
 
 func TestPwdCommand_Execute(t *testing.T) {

@@ -1,7 +1,7 @@
 package command
 
 import (
-	"github.com/KyleBanks/s3fs/handler/command/context"
+	"github.com/brozzis/s3fs/handler/command/context"
 )
 
 // PwdCommand simulates 'pwd' functionality.

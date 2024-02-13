@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/KyleBanks/s3fs/handler/command/context"
+	"github.com/brozzis/s3fs/handler/command/context"
 )
 
 func TestCdCommand_Execute(t *testing.T) {

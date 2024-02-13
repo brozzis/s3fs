@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/KyleBanks/s3fs/handler/command/context"
+	"github.com/brozzis/s3fs/handler/command/context"
 )
 
 // CdCommand simulates 'cd' functionality.

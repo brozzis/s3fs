@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/KyleBanks/s3fs/handler/command/context"
+	"github.com/brozzis/s3fs/handler/command/context"
 )
 
 func TestGetCommand_Execute(t *testing.T) {

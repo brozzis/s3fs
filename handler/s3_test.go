@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/KyleBanks/s3fs/handler/command"
+	"github.com/brozzis/s3fs/handler/command"
 )
 
 func TestS3Handler_Handle(t *testing.T) {

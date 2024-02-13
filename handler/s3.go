@@ -3,8 +3,8 @@ package handler
 import (
 	"errors"
 
-	"github.com/KyleBanks/s3fs/handler/command"
-	"github.com/KyleBanks/s3fs/handler/command/context"
+	"github.com/brozzis/s3fs/handler/command"
+	"github.com/brozzis/s3fs/handler/command/context"
 )
 
 // S3Handler defines a struct that handles commands and dispatches them through the Amazon S3 API.

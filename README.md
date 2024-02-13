@@ -1,9 +1,9 @@
 # s3fs
 
-[![Build Status](https://travis-ci.org/KyleBanks/s3fs.svg?branch=master)](https://travis-ci.org/KyleBanks/s3fs) &nbsp; 
-[![GoDoc](https://godoc.org/github.com/KyleBanks/s3fs?status.svg)](https://godoc.org/github.com/KyleBanks/s3fs) &nbsp; 
-[![Go Report Card](https://goreportcard.com/badge/github.com/KyleBanks/s3fs)](https://goreportcard.com/report/github.com/KyleBanks/s3fs)&nbsp;
-[![Coverage Status](https://coveralls.io/repos/github/KyleBanks/s3fs/badge.svg?branch=master)](https://coveralls.io/github/KyleBanks/s3fs?branch=master)
+[![Build Status](https://travis-ci.org/brozzis/s3fs.svg?branch=master)](https://travis-ci.org/brozzis/s3fs) &nbsp; 
+[![GoDoc](https://godoc.org/github.com/brozzis/s3fs?status.svg)](https://godoc.org/github.com/brozzis/s3fs) &nbsp; 
+[![Go Report Card](https://goreportcard.com/badge/github.com/brozzis/s3fs)](https://goreportcard.com/report/github.com/brozzis/s3fs)&nbsp;
+[![Coverage Status](https://coveralls.io/repos/github/brozzis/s3fs/badge.svg?branch=master)](https://coveralls.io/github/brozzis/s3fs?branch=master)
 
 `s3fs` is an [Amazon S3](https://aws.amazon.com/s3/) client that provides a familiar interface for navigating and managing S3 buckets and objects. The goal of `s3fs` is to allow you to interact with Amazon S3 as you would your local filesystem.
 
@@ -13,14 +13,14 @@
 
 ### Binary 
 
-Simply go to the [releases page](https://github.com/KyleBanks/s3fs/releases) and download the appropriate binary for your environment.
+Simply go to the [releases page](https://github.com/brozzis/s3fs/releases) and download the appropriate binary for your environment.
 
 ### From Source
 
 `s3fs` is written in [Go](https://golang.org/) and can be installed using `go get` if you have a working Go environment. 
 
 ```
-go get github.com/KyleBanks/s3fs
+go get github.com/brozzis/s3fs
 ```
 
 # Usage 
@@ -124,7 +124,7 @@ $ put file.txt bucket/folder
 
 There are a number of commands left to implement, and contributions are more than welcome! Specifically, commands to upload and download files, folders, and buckets are sorely missing.
 
-Check the [issues page](https://github.com/KyleBanks/s3fs/issues) if you're interested in contributing or if you feel a feature is missing!
+Check the [issues page](https://github.com/brozzis/s3fs/issues) if you're interested in contributing or if you feel a feature is missing!
 
 # License
 

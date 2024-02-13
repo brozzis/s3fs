@@ -5,11 +5,11 @@ import (
 	"bufio"
 	"os"
 
-	"github.com/KyleBanks/s3fs/client"
-	"github.com/KyleBanks/s3fs/handler"
-	"github.com/KyleBanks/s3fs/indicator"
-	"github.com/KyleBanks/s3fs/listener"
-	"github.com/KyleBanks/s3fs/output"
+	"github.com/brozzis/s3fs/client"
+	"github.com/brozzis/s3fs/handler"
+	"github.com/brozzis/s3fs/indicator"
+	"github.com/brozzis/s3fs/listener"
+	"github.com/brozzis/s3fs/output"
 )
 
 func main() {

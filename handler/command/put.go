@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/KyleBanks/s3fs/handler/command/context"
-	"github.com/KyleBanks/s3fs/handler/command/util"
+	"github.com/brozzis/s3fs/handler/command/context"
+	"github.com/brozzis/s3fs/handler/command/util"
 )
 
 const (
